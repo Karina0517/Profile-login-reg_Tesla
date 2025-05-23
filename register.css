@@ -1,0 +1,165 @@
+:root {
+  --c1: #06141B;
+  --c2: #11212D;
+  --c3: #253745;
+  --c4: #4A5C6A;
+  --c5: #9BAAB3;
+  --c6: #CCD0CF;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #4A5C6A;
+  color: var(--c6);
+}
+
+header {
+  background-color: var(--c2);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.menu-izq { 
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu-icono {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: default;
+}
+
+.menu-icono span {
+  height: 3px;
+  width: 25px;
+  background-color: var(--c6);
+  margin: 3px 0;
+}
+
+.titulo {
+  font-family: 'AnacondaWildstyle', Arial, sans-serif;
+  font-size: 32px;
+  margin: 0 auto;
+  text-shadow: 2px 2px var(--c1);
+  color: white;
+}
+
+.menu-der {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu-der img {
+  width: 24px;
+  height: 24px;
+  opacity: 0.7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: var(--c2);
+  color: var(--c5);
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+}
+
+a {
+  color: var(--c5);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    line-height: 1.5;
+    min-height: 80vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main {
+    background-color: var(--c6);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    width: 500px;
+    text-align: center;
+}
+
+h1 {
+    color: var(--c4);
+}
+
+p{
+  color: var(--c1);
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color:  var(--c6);
+    cursor: pointer;
+    background-color: var(--c4);
+    width: 100%;
+    font-size: 16px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cc {
+
+display: flex;
+justify-content:left;
+
+}

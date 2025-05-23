@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tesla Street</title>
+  <link rel="stylesheet" href="../css/register.css"/>
+</head>
+<body>
+  <header>
+    <div class="menu-izq">
+      <div class="menu-icono">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <a href="#">Home</a>
+      <a href="#">Catalog</a>
+      <a href="#">Contact</a>
+      <a href="#">us</a>
+    </div>
+    <img src="../Image/white.png" alt="tesla" width="250px" height="30px" >
+    <div class="menu-der">
+      <a href="#"><img src="../Image/carrito.png" alt="Carrito" /></a>
+      <a href="#"><img src="../Image/user.png" alt="Login" /></a>
+    </div>
+  </header>
+  <main>
+    <div class="main">
+      <h1>Register</h1>
+    
+
+      <form action="">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your Name" required minlength="3">
+
+        <label for="last">Username:</label>
+        <input type="text" id="last" placeholder="Enter your last Name" required minlength="3">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required >
+
+        <label for="cc">C.C.:</label>
+          <select name="cc" id="cc">
+            <option value="CC">Cc</option>
+            <option value="CC">TI</option>
+            <input type="text" required >
+          </select>
+
+        <label for="password"> Password: </label>
+        <input type="password" id="password" placeholder="Enter your Password" required>
+
+          <div class="wrap">
+            <button type="submit"> Submit </button>
+          </div>
+      </form>
+      
+    </div>
+  </main>
+  <footer>
+    © 2025 Tesla Street. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
+
